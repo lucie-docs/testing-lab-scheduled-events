@@ -1,6 +1,6 @@
 name: Mark stale issues and pull requests daily
 
-on:
+on: '0 0 * * *'
 
 jobs:
   stale:
